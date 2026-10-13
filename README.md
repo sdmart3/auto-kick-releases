@@ -3,8 +3,9 @@
 **The CPU kicks for you. You play every other snap.**
 
 Auto Kick is a small add-on for College Football 27. On the kick types you pick, the CPU kicks for you on your own
-team's kicks: field goals and extra points, and punts. You still call the play and snap the ball as usual. You play
-offense, defense and the returns yourself; the CPU just takes the kick.
+team's kicks: field goals and extra points, and punts. You still call the play. The game then snaps the ball as soon
+as the kicker is set, or, with **Control the Snap** on, when you press your snap button. You play offense,
+defense and the returns yourself; the CPU just takes the kick.
 
 - Works with the MMC Mod Manager: you launch the game from the Mod Manager, and Auto Kick loads itself about 30
   seconds after the game starts.
@@ -49,6 +50,8 @@ folder somewhere else, for example `C:\Games`, and pick it again with Browse.
 | **Field goals and extra points** | on | The CPU kicks your field goals and PATs. |
 | **Punts** | on | The CPU kicks your punts. |
 | **Kickoffs** | off | The CPU kicks your kickoffs. |
+| **Aim kickoffs at the play's side** | off | Under Kickoffs (needs Kickoffs on). The CPU kicks to the side of the kickoff play you call: left, middle or right. A safety kick follows its Punt Left / Middle / Right play the same way. Squib and onside kicks keep their own aim. Off: the CPU picks its own spot. |
+| **Control the Snap** | off | On the field goals, extra points and punts the CPU takes, the ball is snapped when you press your snap button, so you can run the play clock down first. Off: the game snaps as soon as the kicker is set. Kickoffs always snap by themselves. |
 
 Changes save right away. The game picks them up within a second, so the next kick uses them, even in the middle of a
 game. You don't need to restart anything.
@@ -71,6 +74,7 @@ While the app is open it shows what Auto Kick is doing, refreshed every second:
   Manager, then launch the game from it.
 
 Under that you see how many kicks of each type the CPU took this session, how many were left to you, and the last kick.
+With **Control the Snap** on, one more line says how many of those kicks you snapped yourself.
 
 **Open log folder** opens `Plugins\AutoKick`. `plugin.log` (loading) and `autokick.log` (kicks) are in there if you
 need to report a problem.
@@ -96,3 +100,5 @@ folder.
   (Open log folder).
 - **"access denied" in plugin.log**: the game runs as administrator. Run the Mod Manager as administrator too.
 - **A kickoff stalls**: switch off Kickoffs; the next kickoff is normal again.
+- **With Control the Snap on, a kick snapped by itself**: after 90 seconds without a press, Auto Kick lets the
+  game snap it, so a kick never hangs.
