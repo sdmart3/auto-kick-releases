@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+
+- **Kick like a CPU team** (under Kickoffs): the kickoffs the CPU takes for you use the CPU's kicking sliders instead of yours, so your difficulty and slider settings don't make them less accurate. Field goals, extra points and punts still use yours. Off by default.
+- **Aim kickoffs at the play's side** is less extreme: Kickoff Left / Right now aim about as wide as the game's own CPU kickoffs, never wider.
+- Fixed: on rare launches Auto Kick couldn't load (no free memory close enough to the game) and that game ran without it. It now falls back to a spot inside the game's own code.
+
 ## 0.2.0
 
 - **Control the Snap**: on the field goals, extra points and punts the CPU takes, the ball waits for your snap button, so you can run the play clock down first. Off by default.

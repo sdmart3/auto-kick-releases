@@ -51,6 +51,7 @@ folder somewhere else, for example `C:\Games`, and pick it again with Browse.
 | **Punts** | on | The CPU kicks your punts. |
 | **Kickoffs** | off | The CPU kicks your kickoffs. |
 | **Aim kickoffs at the play's side** | off | Under Kickoffs (needs Kickoffs on). The CPU kicks to the side of the kickoff play you call: left, middle or right. A safety kick follows its Punt Left / Middle / Right play the same way. Squib and onside kicks keep their own aim. Off: the CPU picks its own spot. |
+| **Kick like a CPU team** | off | Under Kickoffs (needs Kickoffs on). The kickoffs the CPU takes for you (onside, squib and safety kicks too) use the CPU's kicking sliders instead of yours, so your difficulty and slider settings don't make them less accurate. Field goals, extra points and punts always use your team's sliders. Off: your team's sliders, the same as the game's Coach Mode. |
 | **Control the Snap** | off | On the field goals, extra points and punts the CPU takes, the ball is snapped when you press your snap button, so you can run the play clock down first. Off: the game snaps as soon as the kicker is set. Kickoffs always snap by themselves. |
 
 Changes save right away. The game picks them up within a second, so the next kick uses them, even in the middle of a
