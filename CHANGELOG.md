@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2
+
+- Fixed: kickoffs the CPU takes for you no longer shank out of bounds. Because the kick was for your team, the game used the miss formula meant for a human using the kick meter, which has a hard shank built in. Your CPU kickoffs now use the same formula as the CPU's own kickoffs, and the final aim is also kept inside the field as a backstop.
+
 ## 0.2.1
 
 - **Kick like a CPU team** (under Kickoffs): the kickoffs the CPU takes for you use the CPU's kicking sliders instead of yours, so your difficulty and slider settings don't make them less accurate. Field goals, extra points and punts still use yours. Off by default.
